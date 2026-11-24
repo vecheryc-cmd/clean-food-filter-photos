@@ -1,0 +1,909 @@
+{
+"model": "Tongyi-MAI/Z-Image-Turbo",
+"types": [
+{
+"id": "ice-cream",
+"prompt": "Professional studio product photograph of three round scoops of ice cream (vanilla, chocolate, strawberry) in a plain white bowl. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "cookies",
+"prompt": "Professional studio product photograph of a small stack of chocolate chip cookies with one cookie broken in half. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "soup",
+"prompt": "Professional studio product photograph of a plain white bowl of hearty vegetable and chicken noodle soup with a spoon. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "mixed-nuts",
+"prompt": "Professional studio product photograph of a small heap of roasted mixed nuts (almonds, cashews, pecans, walnuts, hazelnuts) spilling from a plain clear glass bowl. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "cheese-block",
+"prompt": "Professional studio product photograph of a block of cheddar cheese and a wedge of Swiss cheese on a small wooden board. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "juice",
+"prompt": "Professional studio product photograph of a plain clear unlabeled plastic bottle of orange juice next to a glass of juice. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "frozen-veg",
+"prompt": "Professional studio product photograph of a heap of frozen mixed vegetables (peas, diced carrots, corn, cut green beans) with a light frost in a plain white bowl. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "soda",
+"prompt": "Professional studio product photograph of a plain unprinted silver aluminum soda can with a glass of fizzy cola with ice. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "canned-veg",
+"prompt": "Professional studio product photograph of an open plain unlabeled tin can of cut green beans beside a plain white bowl of sweet corn kernels. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "dry-pasta",
+"prompt": "Professional studio product photograph of a heap of uncooked dry penne, spaghetti and rotini pasta. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "water",
+"prompt": "Professional studio product photograph of a plain clear unlabeled plastic bottle of still water with a white cap. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "yogurt",
+"prompt": "Professional studio product photograph of a plain white unprinted single-serve yogurt cup with the lid peeled back showing creamy white yogurt. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "canned-beans",
+"prompt": "Professional studio product photograph of a plain white bowl of cooked kidney beans and black beans beside an open plain unlabeled tin can. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "canned-fruit",
+"prompt": "Professional studio product photograph of a plain white bowl of canned peach slices in syrup beside an open plain unlabeled tin can. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "cereal",
+"prompt": "Professional studio product photograph of a plain white bowl of breakfast cereal flakes with a few loose flakes beside it, no milk. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "potato-chips",
+"prompt": "Professional studio product photograph of a pile of golden ridged potato chips in a plain white bowl. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "gummy-candy",
+"prompt": "Professional studio product photograph of a colorful heap of gummy bears and sour gummy worms. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "canned-tomatoes",
+"prompt": "Professional studio product photograph of an open plain unlabeled tin can of diced tomatoes beside a plain white bowl of tomato sauce. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "pizza",
+"prompt": "Professional studio product photograph of a whole round pepperoni and cheese pizza with one slice pulled out. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "salad-dressing",
+"prompt": "Professional studio product photograph of a plain clear unlabeled glass bottle of creamy ranch dressing and one of Italian vinaigrette. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "crackers",
+"prompt": "Professional studio product photograph of a neat stack of square golden crackers with a few loose crackers beside it. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "pasta-dish",
+"prompt": "Professional studio product photograph of a plain white plate of cooked penne pasta in tomato and cream sauce. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "bread-loaf",
+"prompt": "Professional studio product photograph of a sliced white sandwich bread loaf in a clear plastic bag with a twist tie, a few slices fanned out in front, real soft crumb texture. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "cheese-shredded",
+"prompt": "Professional studio product photograph of a heap of shredded cheddar and mozzarella cheese in a plain white bowl. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "pasta-sauce",
+"prompt": "Professional studio product photograph of a plain clear unlabeled glass jar of red marinara sauce with basil, lid off. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "choc-covered-nuts",
+"prompt": "Professional studio product photograph of a heap of chocolate-covered almonds and chocolate-covered peanuts in a plain white bowl. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "milk-jug",
+"prompt": "Professional studio product photograph of a plain translucent white plastic one-gallon US milk jug with a squarish body, built-in handle and plain white cap, full of milk. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "trail-mix",
+"prompt": "Professional studio product photograph of a heap of trail mix with peanuts, almonds, raisins, dried cranberries and small chocolate candies in a plain white bowl. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "cooking-oil",
+"prompt": "Professional studio product photograph of a plain clear unlabeled glass bottle of golden cooking oil. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "dried-fruit",
+"prompt": "Professional studio product photograph of a small heap of mixed dried fruit (raisins, dried apricots, dried cranberries, dried mango slices) in a plain white bowl. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "salsa",
+"prompt": "Professional studio product photograph of a plain clear unlabeled glass jar of chunky red tomato salsa, lid off. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "assorted-candy",
+"prompt": "Professional studio product photograph of a colorful heap of assorted unwrapped candies: jelly beans, gummies, hard candies and candy-coated chocolates. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "frozen-fruit",
+"prompt": "Professional studio product photograph of a heap of frozen mixed berries and mango chunks with a light frost in a plain white bowl. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "deli-meat",
+"prompt": "Professional studio product photograph of thinly sliced deli turkey and ham folded on a small wooden board. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "layer-cake",
+"prompt": "Professional studio product photograph of a frosted layer cake on a plain white cake stand with one slice cut out. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "pickles",
+"prompt": "Professional studio product photograph of a plain clear unlabeled glass jar of whole dill pickles with two pickle spears beside it. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "buns-rolls",
+"prompt": "Professional studio product photograph of four soft golden hamburger buns and dinner rolls. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "ice-cream-bars",
+"prompt": "Professional studio product photograph of a chocolate-coated ice cream bar on a stick, a fruit ice pop and an ice cream sandwich. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "baking-mix",
+"prompt": "Professional studio product photograph of a glass mixing bowl of dry cake and pancake mix powder with a whisk. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "jam",
+"prompt": "Professional studio product photograph of a plain clear glass jar of red strawberry jam with a spoonful beside it. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "applesauce",
+"prompt": "Professional studio product photograph of a plain white unprinted applesauce cup with the lid peeled back, and a plain white bowl of applesauce. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "sausages",
+"prompt": "Professional studio product photograph of several raw pork sausage links and two browned cooked sausages. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "granola-bars",
+"prompt": "Professional studio product photograph of three unwrapped granola bars with oats and nuts, stacked. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "popcorn",
+"prompt": "Professional studio product photograph of a heap of fluffy popped popcorn in a plain white bowl. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "salad-greens",
+"prompt": "Professional studio product photograph of a clear plastic clamshell box of mixed salad greens and baby spinach. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "chocolate-bar",
+"prompt": "Professional studio product photograph of a plain unwrapped chocolate bar broken into squares, a few pieces stacked. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "cheese-sliced",
+"prompt": "Professional studio product photograph of a neat fanned stack of square American and Swiss cheese slices. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "rice",
+"prompt": "Professional studio product photograph of a heap of uncooked long-grain white rice in a plain white bowl with a wooden scoop. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "peanut-butter",
+"prompt": "Professional studio product photograph of a plain clear unlabeled jar of creamy peanut butter with a plain red lid, lid off. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "olives",
+"prompt": "Professional studio product photograph of a plain white bowl of green and black olives. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "sandwich-cookies",
+"prompt": "Professional studio product photograph of a small stack of round chocolate sandwich cookies with white cream filling, one twisted open. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "dough",
+"prompt": "Professional studio product photograph of a ball of raw bread dough and unbaked biscuit dough rounds on a sheet of parchment paper. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "peanuts",
+"prompt": "Professional studio product photograph of a heap of shelled roasted peanuts in a plain white bowl. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "rice-side",
+"prompt": "Professional studio product photograph of a plain white bowl of seasoned rice pilaf with herbs. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "oatmeal",
+"prompt": "Professional studio product photograph of a plain white bowl of rolled oats, dry, with a wooden spoon. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "shrimp",
+"prompt": "Professional studio product photograph of a heap of cooked pink peeled shrimp with tails on in a plain white bowl. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "mac-cheese",
+"prompt": "Professional studio product photograph of a plain white bowl of creamy macaroni and cheese. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "tortilla-chips",
+"prompt": "Professional studio product photograph of a pile of triangular corn tortilla chips in a plain white bowl. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "pretzels",
+"prompt": "Professional studio product photograph of a pile of small salted twisted hard pretzels in a plain white bowl. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "pie",
+"prompt": "Professional studio product photograph of a whole baked fruit pie with a golden lattice crust in a glass pie dish. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "seasoning-blend",
+"prompt": "Professional studio product photograph of a plain clear unlabeled plastic shaker jar of coarse seasoning blend with a small heap of seasoning. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "iced-tea",
+"prompt": "Professional studio product photograph of a plain clear unlabeled bottle of iced tea next to a glass of iced tea with ice and lemon. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "chocolate-candy",
+"prompt": "Professional studio product photograph of a heap of assorted chocolate candies and truffles, unwrapped. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "waffles-pancakes",
+"prompt": "Professional studio product photograph of a stack of golden frozen-style toaster waffles and a short stack of pancakes. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "syrup",
+"prompt": "Professional studio product photograph of a plain clear glass bottle of amber maple syrup. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "cupcakes",
+"prompt": "Professional studio product photograph of three frosted cupcakes in paper liners. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "lemonade",
+"prompt": "Professional studio product photograph of a plain clear glass pitcher of cloudy lemonade with lemon slices. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "pudding",
+"prompt": "Professional studio product photograph of a clear plastic cup of creamy chocolate pudding and one of vanilla pudding, lids off, a spoon beside. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "fries",
+"prompt": "Professional studio product photograph of a heap of golden french fries and crispy potato tots. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "tortillas",
+"prompt": "Professional studio product photograph of a stack of soft flour tortillas, the top one slightly folded. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "cottage-cheese",
+"prompt": "Professional studio product photograph of a plain white bowl of cottage cheese curds with a spoon. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "creamer",
+"prompt": "Professional studio product photograph of a plain white unprinted plastic bottle of coffee creamer next to a cup of coffee with cream. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "creamy-dip",
+"prompt": "Professional studio product photograph of a plain white bowl of thick creamy white dip with herbs. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "sandwiches",
+"prompt": "Professional studio product photograph of a deli sub sandwich and a wrap cut in half on a plain white plate. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "veg-medley",
+"prompt": "Professional studio product photograph of a clear plastic tray of fresh cut vegetables: snap peas, carrot sticks, broccoli florets, bell pepper strips and green beans. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "mustard",
+"prompt": "Professional studio product photograph of a plain unlabeled squeeze bottle of yellow mustard with a small dish of mustard. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "sugar",
+"prompt": "Professional studio product photograph of a heap of white granulated sugar and a small heap of brown sugar in plain white bowls. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "bacon",
+"prompt": "Professional studio product photograph of strips of raw bacon laid side by side, with two strips of cooked crispy bacon. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "granola",
+"prompt": "Professional studio product photograph of a heap of clustered oat granola with nuts in a plain white bowl. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "hard-candy",
+"prompt": "Professional studio product photograph of a colorful heap of round peppermint hard candies, unwrapped fruit hard candies and two lollipops. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "gravy",
+"prompt": "Professional studio product photograph of a plain white gravy boat of brown gravy. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "canned-tuna",
+"prompt": "Professional studio product photograph of an open plain unlabeled tin of chunk tuna with a fork. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "seasoning-packet",
+"prompt": "Professional studio product photograph of a small heap of taco seasoning mix powder beside a plain unprinted paper packet. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "drink-mix",
+"prompt": "Professional studio product photograph of a glass pitcher of red fruit punch with a small heap of drink mix powder. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "pastries",
+"prompt": "Professional studio product photograph of a golden butter croissant, a fruit danish and a cinnamon roll on a plain white plate. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "muffins",
+"prompt": "Professional studio product photograph of three domed blueberry muffins in paper liners. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "cheese-spread",
+"prompt": "Professional studio product photograph of a plain white unprinted tub of orange pimento cheese spread, lid off. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "bbq-sauce",
+"prompt": "Professional studio product photograph of a plain clear unlabeled glass bottle of dark barbecue sauce. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "hummus",
+"prompt": "Professional studio product photograph of a plain white bowl of smooth hummus with olive oil and paprika. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "hot-cocoa",
+"prompt": "Professional studio product photograph of a white mug of hot cocoa with mini marshmallows and a small heap of cocoa mix powder. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "gelatin",
+"prompt": "Professional studio product photograph of cubes of red and green wobbly gelatin dessert in a clear glass bowl. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "bagels",
+"prompt": "Professional studio product photograph of three plain and sesame bagels, one sliced in half. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "condiments",
+"prompt": "Professional studio product photograph of three plain unlabeled squeeze bottles: red ketchup, yellow mustard and dark barbecue sauce. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "flour",
+"prompt": "Professional studio product photograph of a plain white paper sack of flour, open, with a heap of white flour and a scoop in front. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "fish-fillet",
+"prompt": "Professional studio product photograph of two raw white fish fillets on a plain white plate. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "artisan-bread",
+"prompt": "Professional studio product photograph of a crusty French baguette and a round rustic sourdough boule with a floured crust. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "brownies",
+"prompt": "Professional studio product photograph of a stack of fudgy chocolate brownie squares. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "vinegar",
+"prompt": "Professional studio product photograph of a plain clear unlabeled glass bottle of clear vinegar and a small one of apple cider vinegar. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "ketchup",
+"prompt": "Professional studio product photograph of a plain clear unlabeled squeeze bottle of red tomato ketchup. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "donuts",
+"prompt": "Professional studio product photograph of four glazed and chocolate-frosted ring donuts. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "honey",
+"prompt": "Professional studio product photograph of a plain clear glass jar of golden honey with a wooden honey dipper. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "jerky",
+"prompt": "Professional studio product photograph of several strips of dark beef jerky on a small wooden board. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "toaster-pastries",
+"prompt": "Professional studio product photograph of two rectangular frosted toaster pastries with sprinkles, one broken to show the fruit filling. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "tea-bags",
+"prompt": "Professional studio product photograph of a cup of hot tea with two plain paper tea bags beside it. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "pound-cake",
+"prompt": "Professional studio product photograph of a golden pound cake loaf with two slices cut. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "string-cheese",
+"prompt": "Professional studio product photograph of four sticks of white string cheese, one peeled into strings. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "pickled-peppers",
+"prompt": "Professional studio product photograph of a plain clear unlabeled glass jar of sliced pickled jalapeno and banana pepper rings. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "plant-milk",
+"prompt": "Professional studio product photograph of a plain white unprinted paper carton of oat milk with a glass of milk beside it. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "potato-salad",
+"prompt": "Professional studio product photograph of a plain white bowl of creamy potato salad. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "breading",
+"prompt": "Professional studio product photograph of a heap of golden breadcrumbs and seasoned breading in a plain white bowl. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "green-salad",
+"prompt": "Professional studio product photograph of a clear plastic bowl of chopped romaine salad topped with grilled chicken, hard-boiled egg, tomatoes and bacon. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "butter",
+"prompt": "Professional studio product photograph of two sticks of butter, one partly unwrapped, on a plain white butter dish. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "apples",
+"prompt": "Professional studio product photograph of three fresh red and green apples with a few apple slices. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "mints-gum",
+"prompt": "Professional studio product photograph of a small heap of white round breath mints and white pellets of chewing gum. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "cheesecake",
+"prompt": "Professional studio product photograph of a whole New York cheesecake with one slice cut out, on a plain white plate. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "cream-cheese",
+"prompt": "Professional studio product photograph of a block of cream cheese, partly unwrapped, with a knife spread. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "ground-meat",
+"prompt": "Professional studio product photograph of a mound of raw ground beef in a plain white foam tray. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "cream",
+"prompt": "Professional studio product photograph of a plain white unprinted half-pint paper carton of heavy cream with a small glass pitcher of cream. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "burger-patties",
+"prompt": "Professional studio product photograph of a stack of raw round beef burger patties separated by paper squares. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "seeds",
+"prompt": "Professional studio product photograph of a small heap of shelled sunflower seeds and green pumpkin seeds in a plain white bowl. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "caramels",
+"prompt": "Professional studio product photograph of a heap of soft square caramels and pastel salt water taffy pieces, unwrapped. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "salt",
+"prompt": "Professional studio product photograph of a plain white salt shaker and a small bowl of white sea salt flakes. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "mayo",
+"prompt": "Professional studio product photograph of a plain clear unlabeled glass jar of white mayonnaise, lid off. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "butter-spread",
+"prompt": "Professional studio product photograph of a plain white unprinted plastic tub of soft buttery spread, lid off, with a butter knife. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "spice-ground",
+"prompt": "Professional studio product photograph of a small plain clear unlabeled glass spice jar of ground red paprika with a small heap of spice in front. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "mashed-potatoes",
+"prompt": "Professional studio product photograph of a plain white bowl of creamy mashed potatoes with butter. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "salmon",
+"prompt": "Professional studio product photograph of a raw salmon fillet with skin on a plain white plate. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "whipped-topping",
+"prompt": "Professional studio product photograph of a plain white tub of fluffy whipped topping, lid off, with a swirl of topping on a spoon. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "marinade",
+"prompt": "Professional studio product photograph of a plain clear unlabeled glass bottle of brown marinade. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "pasta-salad",
+"prompt": "Professional studio product photograph of a plain white bowl of macaroni salad. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "curry-sauce",
+"prompt": "Professional studio product photograph of a plain clear unlabeled glass jar of orange curry simmer sauce, lid off. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "snack-mix",
+"prompt": "Professional studio product photograph of a heap of savory snack mix with cereal squares, small pretzels, rye chips and peanuts in a plain white bowl. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "canned-meat",
+"prompt": "Professional studio product photograph of an open plain unlabeled tin can of chunk chicken with some meat on a fork. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "sprinkles",
+"prompt": "Professional studio product photograph of a small heap of rainbow sprinkles and colored sugar in a plain white bowl. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "frosting",
+"prompt": "Professional studio product photograph of a plain white tub of creamy vanilla frosting, lid off, with a spatula swirl. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "salami",
+"prompt": "Professional studio product photograph of slices of salami and pepperoni with a short salami log on a small wooden board. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "breaded-chicken",
+"prompt": "Professional studio product photograph of a pile of golden breaded chicken nuggets and tenders. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "eggs",
+"prompt": "Professional studio product photograph of an open plain grey pulp egg carton holding exactly twelve brown eggs in two rows of six. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "hot-sauce",
+"prompt": "Professional studio product photograph of a small plain clear unlabeled glass bottle of red hot sauce. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "marshmallows",
+"prompt": "Professional studio product photograph of a heap of fluffy white marshmallows in a plain white bowl. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "stir-fry",
+"prompt": "Professional studio product photograph of a plain white bowl of chicken and vegetable stir-fry over white rice. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "baby-carrots",
+"prompt": "Professional studio product photograph of a heap of peeled baby carrots. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "chicken-wings",
+"prompt": "Professional studio product photograph of a pile of glazed cooked chicken wings. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "stuffing",
+"prompt": "Professional studio product photograph of a plain white bowl of bread stuffing with herbs and celery. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "cheese-puffs",
+"prompt": "Professional studio product photograph of a pile of orange crunchy cheese puffs in a plain white bowl. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "sour-cream",
+"prompt": "Professional studio product photograph of a plain white unprinted tub of thick sour cream, lid off, with a spoon. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "breakfast-sandwich",
+"prompt": "Professional studio product photograph of an English muffin breakfast sandwich with egg, sausage and cheese, and a biscuit sandwich. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "potatoes",
+"prompt": "Professional studio product photograph of a heap of fresh russet and red potatoes. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "chocolate-chips",
+"prompt": "Professional studio product photograph of a heap of semi-sweet chocolate chips in a plain white bowl. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "hot-dogs",
+"prompt": "Professional studio product photograph of a row of five plain cooked hot dog franks. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "maraschino-cherries",
+"prompt": "Professional studio product photograph of a plain clear glass jar of bright red maraschino cherries with stems. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "cooked-chicken",
+"prompt": "Professional studio product photograph of grilled sliced chicken breast strips on a plain white plate. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "queso",
+"prompt": "Professional studio product photograph of a plain clear unlabeled glass jar of smooth yellow cheese dip (queso), lid off. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "english-muffins",
+"prompt": "Professional studio product photograph of three English muffins, one split open showing the nooks. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "chicken-salad",
+"prompt": "Professional studio product photograph of a plain white bowl of creamy chicken salad with celery. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "coffee-drink",
+"prompt": "Professional studio product photograph of a plain clear unlabeled glass bottle of iced coffee with milk next to a glass of iced coffee. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "pie-crust",
+"prompt": "Professional studio product photograph of an unbaked pie crust in a metal pie tin with a crimped edge. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "steak",
+"prompt": "Professional studio product photograph of a raw beef steak with marbling on a small wooden board. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "cooked-veg",
+"prompt": "Professional studio product photograph of a plain white bowl of steamed broccoli, green beans and carrots. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "licorice",
+"prompt": "Professional studio product photograph of a bundle of red licorice twists. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "chicken-breast",
+"prompt": "Professional studio product photograph of two raw boneless skinless chicken breasts on a plain white plate. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "soy-sauce",
+"prompt": "Professional studio product photograph of a plain clear unlabeled glass bottle of dark soy sauce with a small dish of soy sauce. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "lasagna",
+"prompt": "Professional studio product photograph of a rectangular tray of baked lasagna with one portion cut out. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "spice-grinder",
+"prompt": "Professional studio product photograph of a plain clear unlabeled glass grinder bottle of mixed peppercorns and sea salt. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "breaded-fish",
+"prompt": "Professional studio product photograph of golden breaded fish fillets and fish sticks. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "apple-cider",
+"prompt": "Professional studio product photograph of a plain clear plastic jug of brown apple cider next to two apples. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "broccoli-florets",
+"prompt": "Professional studio product photograph of fresh broccoli and cauliflower florets in a plain white bowl. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "quiche",
+"prompt": "Professional studio product photograph of a whole quiche with one slice cut out. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "coleslaw",
+"prompt": "Professional studio product photograph of a plain white bowl of creamy coleslaw with shredded cabbage and carrot. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "bouillon",
+"prompt": "Professional studio product photograph of a few unwrapped bouillon cubes and a small cup of clear golden broth. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "dumplings",
+"prompt": "Professional studio product photograph of a plain white plate of pan-fried potstickers and steamed dumplings. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "meatballs",
+"prompt": "Professional studio product photograph of a heap of browned cooked meatballs in a plain white bowl. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "guacamole",
+"prompt": "Professional studio product photograph of a plain white bowl of chunky green guacamole. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "dried-herbs",
+"prompt": "Professional studio product photograph of a small plain clear unlabeled glass spice jar of dried green herbs (oregano, basil) with a small heap of herbs. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "coffee",
+"prompt": "Professional studio product photograph of a heap of roasted coffee beans and a plain white bowl of ground coffee. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "savory-pastry",
+"prompt": "Professional studio product photograph of golden flaky savory pastry triangles and turnovers on a plain white plate. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "coconut-flakes",
+"prompt": "Professional studio product photograph of a heap of shredded sweetened coconut flakes in a plain white bowl. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "taco-shells",
+"prompt": "Professional studio product photograph of a row of crispy hard corn taco shells standing upright. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "baking-soda",
+"prompt": "Professional studio product photograph of a small heap of fine white baking powder in a plain white bowl with a measuring spoon. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "protein-shake",
+"prompt": "Professional studio product photograph of a plain white unprinted plastic bottle of protein shake next to a glass of chocolate shake. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "curry-rice",
+"prompt": "Professional studio product photograph of a plain white bowl of chicken curry with basmati rice. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "kombucha",
+"prompt": "Professional studio product photograph of a plain amber glass unlabeled bottle of kombucha next to a glass of fizzy kombucha. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "pulled-pork",
+"prompt": "Professional studio product photograph of a heap of barbecue pulled pork in a plain white bowl. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "veggie-burgers",
+"prompt": "Professional studio product photograph of three plant-based veggie burger patties, one cooked with grill marks. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "soft-pretzels",
+"prompt": "Professional studio product photograph of two large golden soft pretzels with coarse salt. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "rice-cakes",
+"prompt": "Professional studio product photograph of a short stack of round puffed rice cakes. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "scallops",
+"prompt": "Professional studio product photograph of raw sea scallops on a plain white plate. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "ribs",
+"prompt": "Professional studio product photograph of a rack of glazed barbecue pork ribs on a small wooden board. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "onions",
+"prompt": "Professional studio product photograph of whole yellow and red onions, one cut in half. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "cut-fruit",
+"prompt": "Professional studio product photograph of a clear plastic cup of fresh cut fruit: pineapple chunks, melon cubes, grapes and strawberries. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "rotisserie-chicken",
+"prompt": "Professional studio product photograph of a whole golden rotisserie chicken in a plain black plastic dome container. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "chicken-pieces",
+"prompt": "Professional studio product photograph of raw chicken thighs, drumsticks and wings on a plain white plate. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "black-pepper",
+"prompt": "Professional studio product photograph of whole black peppercorns and ground black pepper in two small piles. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "cocktail-mixer",
+"prompt": "Professional studio product photograph of a plain clear unlabeled glass bottle of lime green margarita mix. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "sauerkraut",
+"prompt": "Professional studio product photograph of a plain white bowl of sauerkraut. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "egg-rolls",
+"prompt": "Professional studio product photograph of three golden fried egg rolls, one cut in half. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "sports-drink",
+"prompt": "Professional studio product photograph of a plain clear unlabeled plastic bottle of bright blue sports drink. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "pink-salt",
+"prompt": "Professional studio product photograph of a small plain white bowl of coarse pink Himalayan salt. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "bean-dip",
+"prompt": "Professional studio product photograph of a plain white bowl of smooth refried bean dip. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "egg-bites",
+"prompt": "Professional studio product photograph of four round baked egg bites with vegetables. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "mozzarella-sticks",
+"prompt": "Professional studio product photograph of a pile of golden breaded mozzarella sticks, one pulled apart. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "snack-cakes",
+"prompt": "Professional studio product photograph of three individual cream-filled snack cakes, one cut in half showing the cream filling. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "mushrooms",
+"prompt": "Professional studio product photograph of fresh white button mushrooms, a few sliced, in a plain white bowl. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "onion-rings",
+"prompt": "Professional studio product photograph of a stack of golden battered onion rings. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "jalapeno-poppers",
+"prompt": "Professional studio product photograph of golden breaded jalapeno poppers, one cut open showing cream cheese. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "whole-spices",
+"prompt": "Professional studio product photograph of cinnamon sticks, whole cloves, star anise and peppercorns in small piles. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "pot-pie",
+"prompt": "Professional studio product photograph of a round golden baked chicken pot pie with one slice cut showing the filling. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "veggie-straws",
+"prompt": "Professional studio product photograph of a pile of colorful veggie straw crisps (green, orange and yellow) in a plain white bowl. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "pork-rinds",
+"prompt": "Professional studio product photograph of a pile of crispy puffed pork rinds in a plain white bowl. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "potato-skins",
+"prompt": "Professional studio product photograph of baked potato skins topped with melted cheddar and bacon bits. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "burrito",
+"prompt": "Professional studio product photograph of two wrapped burritos, one cut in half showing rice, beans and meat. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "crab-cakes",
+"prompt": "Professional studio product photograph of three golden crab cakes on a plain white plate. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "frozen-dinner",
+"prompt": "Professional studio product photograph of a plain black plastic compartment tray with roast turkey and gravy, mashed potatoes and green beans. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "meatloaf",
+"prompt": "Professional studio product photograph of a glazed meatloaf with two slices cut. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "tamales",
+"prompt": "Professional studio product photograph of three tamales, one unwrapped from its corn husk. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "pork-chops",
+"prompt": "Professional studio product photograph of two raw bone-in pork chops on a plain white plate. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "ramen",
+"prompt": "Professional studio product photograph of a block of dry instant ramen noodles next to a plain white bowl of cooked noodle soup. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "pigs-blanket",
+"prompt": "Professional studio product photograph of a plain white plate of mini sausages wrapped in golden pastry. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "pot-roast",
+"prompt": "Professional studio product photograph of a plain white plate of tender pot roast beef with carrots and potatoes. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "taquitos",
+"prompt": "Professional studio product photograph of a pile of golden crispy rolled taquitos. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "energy-drink",
+"prompt": "Professional studio product photograph of a tall plain unprinted silver aluminum energy drink can. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "beer",
+"prompt": "Professional studio product photograph of a plain brown glass unlabeled beer bottle and a glass of beer. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "vanilla-extract",
+"prompt": "Professional studio product photograph of a small plain amber glass bottle of vanilla extract next to two vanilla beans. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "sushi",
+"prompt": "Professional studio product photograph of a clear plastic tray of California sushi rolls with pickled ginger and wasabi. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "quesadilla",
+"prompt": "Professional studio product photograph of a cheese quesadilla cut into wedges. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+},
+{
+"id": "egg-salad",
+"prompt": "Professional studio product photograph of a plain white bowl of egg salad. Photorealistic, real textures, natural soft daylight, gentle soft shadow, sharp focus, true-to-life colors, centered, the whole item in frame, isolated on a plain pure white background. No text, no label, no logo, no brand, no letters, no numbers, no hands, no people."
+}
+]
+}
