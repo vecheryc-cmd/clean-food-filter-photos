@@ -177,10 +177,26 @@ def sheets(items, name):
         b = io.BytesIO(); sh.save(b, "PNG"); out.append((f"{name}_s{s // 18 + 1:02d}.png", b.getvalue(), man))
     return out
 
+def zoom(items, tag, n=6, C=260):
+    """Text check: the 6 photos with the most fine detail, same 260 px crop before (cut) and after (enh) AI sharpening, at 1.5x."""
+    if not items: return None
+    def detail(c):
+        g = cv2.cvtColor(c, cv2.COLOR_RGB2GRAY); return float(np.abs(cv2.Laplacian(g, cv2.CV_32F)).mean())
+    pick = sorted(items, key=lambda t: -detail(t[1]))[:n]; T = int(C * 1.5)
+    sh = Image.new("RGB", (2 * T + 30, len(pick) * (T + 24) + 8), (200, 200, 200)); dr = ImageDraw.Draw(sh)
+    for i, (bc, cut, enh) in enumerate(pick):
+        g = cv2.cvtColor(cut, cv2.COLOR_RGB2GRAY); e = cv2.Laplacian(g, cv2.CV_32F); e = cv2.blur(np.abs(e), (C, C))
+        e[:C // 2] = 0; e[-C // 2:] = 0; e[:, :C // 2] = 0; e[:, -C // 2:] = 0
+        y, x = np.unravel_index(int(np.argmax(e)), e.shape); y0, x0 = max(0, y - C // 2), max(0, x - C // 2)
+        y = i * (T + 24) + 4; dr.text((10, y), f"{bc}  left: cutout only   right: AI-sharpened + polish", fill=(0, 0, 0))
+        for j, arr in enumerate((cut, enh)):
+            sh.paste(Image.fromarray(arr[y0:y0 + C, x0:x0 + C]).resize((T, T), Image.LANCZOS), (10 + j * (T + 10), y + 18))
+    b = io.BytesIO(); sh.save(b, "PNG"); return b.getvalue()
+
 def run_shard(wave, si, items):
     tag = f"w{wave}_s{si:03d}"
     if f"shards/{tag}.zip" in have: print("skip", tag, flush=True); return
-    t0 = time.time(); rows = []; review = []
+    t0 = time.time(); rows = []; review = []; zoomc = []
     zb = io.BytesIO(); z = zipfile.ZipFile(zb, "w", zipfile.ZIP_STORED)
     with cf.ThreadPoolExecutor(8) as ex:
         for bc, rgb, err in ex.map(lambda kv: fetch(*kv), items):
@@ -194,15 +210,18 @@ def run_shard(wave, si, items):
                     b = io.BytesIO(); Image.fromarray(arr).save(b, "WEBP", quality=90, method=5); z.writestr(f"{kind}/{bc}.webp", b.getvalue())
                 rows.append([bc, "ok", round(time.time() - t, 2), notes, json.dumps(st)])
                 o = rgb.copy() if max(rgb.shape[:2]) <= 400 else np.asarray(Image.fromarray(rgb).resize((max(1, rgb.shape[1] * 400 // max(rgb.shape[:2])), max(1, rgb.shape[0] * 400 // max(rgb.shape[:2])))))
-                review.append((bc, o, enh))
+                review.append((bc, o, enh)); zoomc.append((bc, cut, enh))
             except Exception as e:
                 rows.append([bc, "error", round(time.time() - t, 2), repr(e)[:160], "{}"])
     lb = io.StringIO(); csv.writer(lb).writerows(rows); z.writestr("log.csv", lb.getvalue())
     ss = sheets(review, tag)
     for fn, data, man in ss: z.writestr(f"sheets/{fn}", data)
+    zs = zoom(zoomc, tag)
+    if zs: z.writestr(f"sheets/{tag}_zoom.png", zs)
     z.writestr("sheets/manifest.json", json.dumps({fn: man for fn, _, man in ss}))
     z.close()
     api.upload_file(path_or_fileobj=zb.getvalue(), path_in_repo=f"shards/{tag}.zip", repo_id=A.repo, repo_type="dataset", commit_message=tag)
+    if zs: api.upload_file(path_or_fileobj=zs, path_in_repo=f"peek/{tag}_zoom.png", repo_id=A.repo, repo_type="dataset", commit_message=tag + " zoom")
     for fn, data, _ in ss[:2]:   # first two sheets also as loose files for a quick look
         api.upload_file(path_or_fileobj=data, path_in_repo=f"peek/{fn}", repo_id=A.repo, repo_type="dataset", commit_message=tag + " peek")
     ok = sum(r[1] == "ok" for r in rows); dt = time.time() - t0
