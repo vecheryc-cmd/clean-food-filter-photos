@@ -10,3 +10,15 @@ replaced with white by an open-source cutout model (U²-Net). Nothing on the pac
   licence. Each file is named after the product's barcode; the original is on that product's Open Food Facts page,
   `https://world.openfoodfacts.org/product/<barcode>`.
 - **Layout:** `p/<first 3 digits of the barcode>/<barcode>.webp`, 400 px square, white background.
+
+## Loose produce (`produce/`)
+
+Photos of loose fruit, vegetables and herbs for the app's "Standard buys" list, one per kind of produce (and per
+variety where varieties look different). Each is an edit of an openly licensed photo from
+[Wikimedia Commons](https://commons.wikimedia.org): the background was removed and replaced with white by an open-source
+cutout model (BiRefNet), and the result squared and resized to 800 x 800 px. Nothing was drawn or generated.
+
+- **Licence:** each file keeps the licence of its original (public domain, CC0, CC BY or CC BY-SA, as listed);
+  edits of CC BY-SA photos are shared under the same licence as the original.
+- **Credits:** author, licence and the original file page for every photo are in [`produce/CREDITS.tsv`](produce/CREDITS.tsv).
+- **Layout:** `produce/<item>/<variety>.webp`.
