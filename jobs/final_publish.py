@@ -13,7 +13,7 @@ import numpy as np
 from PIL import Image
 from huggingface_hub import HfApi, hf_hub_download, CommitOperationAdd
 P = argparse.ArgumentParser(); P.add_argument("--list", required=True); P.add_argument("--repo", default="DrNimbus/cff-photo-ai")
-P.add_argument("--fill", type=float, default=0.96); P.add_argument("--overwrite", action="store_true")
+P.add_argument("--fill", type=float, default=0.96); P.add_argument("--overwrite", action="store_true"); P.add_argument("--reverse", action="store_true")
 A = P.parse_args(); api = HfApi()
 L = requests.get(A.list, timeout=60).json()["items"]
 have = {f for f in api.list_repo_files(A.repo, repo_type="dataset") if f.startswith("final/")}
@@ -34,7 +34,7 @@ def flush(force=False):
     global ops
     if ops and (force or len(ops) >= 400):
         api.create_commit(A.repo, repo_type="dataset", operations=ops, commit_message=f"final AI photos ({done} so far)"); ops = []
-for sh, codes in by.items():
+for sh, codes in (list(by.items())[::-1] if A.reverse else list(by.items())):
     p = hf_hub_download(A.repo, f"shards/{sh}.zip", repo_type="dataset"); z = zipfile.ZipFile(p)
     for bc in codes:
         path = f"final/{bc[:3]}/{bc}.webp"
