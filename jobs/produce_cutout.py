@@ -10,7 +10,8 @@
 
 Input: env PICKS_B64 = zlib+base64 JSON list of {item_id, slug, src, t, k, crop?, plain?}: candidate k of target t in the
 candidate list `src` (produce/<src>/candidates.json in the dataset, made by the Commons search job; openly licensed files
-picked by eye). crop = [x0, y0, x1, y1] fractions of the photo, to keep one fruit of several. Per photo: BiRefNet cutout
+picked by eye). crop = [x0, y0, x1, y1] fractions of the photo, to keep one fruit of several; meta_only = only look up the credit
+fields (uploader, required attribution) for a photo made in an earlier run. Per photo: BiRefNet cutout
 onto white (the photo's own pixels; nothing is drawn or generated), square with a margin, 800 x 800 WebP; plain = only
 trim the even border and square-pad. Output: dataset DrNimbus/cff-photo-ai, produce/<TAG>/ (<item>/<slug>.webp, review
 sheets, picks.json with each file's credit fields, all.zip) and a signed download link for all.zip ("ZIPURL ...").
@@ -32,6 +33,22 @@ for p in PICKS:
 DEV = "cuda" if torch.cuda.is_available() else "cpu"
 print("device", DEV, len(SEL), "photos", flush=True)
 S = requests.Session(); S.headers["User-Agent"] = "CleanFoodFilter-produce-photos/0.1 (open-licence photo selection; https://clean-food-filter.vercel.app)"
+
+# uploader and any required attribution text, for files whose Author field is empty or says "myself"
+for i in range(0, len(SEL), 40):
+    part = SEL[i:i + 40]
+    try:
+        r = S.get("https://commons.wikimedia.org/w/api.php", timeout=60, params=dict(
+            action="query", format="json", prop="imageinfo", iiprop="user|extmetadata", iiextmetadatafilter="Attribution|AttributionRequired",
+            titles="|".join(s["title"] for s in part)))
+        pages = {p["title"]: p for p in r.json()["query"]["pages"].values()}
+        norm = {n["from"]: n["to"] for n in r.json()["query"].get("normalized", [])}
+        for s in part:
+            ii = (pages.get(norm.get(s["title"], s["title"]), {}).get("imageinfo") or [{}])[0]; md = ii.get("extmetadata") or {}
+            s["uploader"] = ii.get("user", "")
+            s["attribution"] = (md.get("Attribution") or {}).get("value", "")
+    except Exception as e:
+        print("uploader lookup failed", e, flush=True)
 
 from transformers import AutoModelForImageSegmentation
 BR = AutoModelForImageSegmentation.from_pretrained("ZhengPeng7/BiRefNet", trust_remote_code=True).to(DEV).eval()
@@ -114,7 +131,9 @@ def fetch(s):
 os.makedirs(f"{OUT}/sheets", exist_ok=True)
 log, done = [], []
 for n, s in enumerate(SEL):
-    key = f"{s['item_id']}/{s['slug']}"; rgb = fetch(s)
+    key = f"{s['item_id']}/{s['slug']}"
+    if s.get("meta_only"): continue  # credit fields only (photo made in an earlier run)
+    rgb = fetch(s)
     if rgb is None: log.append((key, "download failed")); print(n, key, "download failed", flush=True); continue
     if s.get("crop"):
         h, w = rgb.shape[:2]; x0, y0, x1, y1 = s["crop"]
