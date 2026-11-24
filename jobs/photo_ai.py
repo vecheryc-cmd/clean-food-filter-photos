@@ -26,6 +26,7 @@ P.add_argument("--shard", type=int, default=500)
 P.add_argument("--limit", type=int, default=0)     # only the first N photos of each wave (pilot)
 P.add_argument("--blend", type=float, default=0.55)
 P.add_argument("--only-shards", default="")         # e.g. "0,1"
+P.add_argument("--max-shards", type=int, default=0)  # stop after this many new shards (the job token expires after ~2 h)
 A = P.parse_args()
 DEV = "cuda" if torch.cuda.is_available() else "cpu"
 print("device", DEV, torch.cuda.get_device_name(0) if DEV == "cuda" else "", flush=True)
@@ -193,9 +194,12 @@ def zoom(items, tag, n=6, C=260):
             sh.paste(Image.fromarray(arr[y0:y0 + C, x0:x0 + C]).resize((T, T), Image.LANCZOS), (10 + j * (T + 10), y + 18))
     b = io.BytesIO(); sh.save(b, "PNG"); return b.getvalue()
 
+NEW = [0]
 def run_shard(wave, si, items):
     tag = f"w{wave}_s{si:03d}"
     if f"shards/{tag}.zip" in have: print("skip", tag, flush=True); return
+    if A.max_shards and NEW[0] >= A.max_shards: return
+    NEW[0] += 1
     t0 = time.time(); rows = []; review = []; zoomc = []
     zb = io.BytesIO(); z = zipfile.ZipFile(zb, "w", zipfile.ZIP_STORED)
     with cf.ThreadPoolExecutor(8) as ex:
@@ -221,9 +225,14 @@ def run_shard(wave, si, items):
     z.writestr("sheets/manifest.json", json.dumps({fn: man for fn, _, man in ss}))
     z.close()
     api.upload_file(path_or_fileobj=zb.getvalue(), path_in_repo=f"shards/{tag}.zip", repo_id=A.repo, repo_type="dataset", commit_message=tag)
-    if zs: api.upload_file(path_or_fileobj=zs, path_in_repo=f"peek/{tag}_zoom.png", repo_id=A.repo, repo_type="dataset", commit_message=tag + " zoom")
-    for fn, data, _ in ss[:2]:   # first two sheets also as loose files for a quick look
-        api.upload_file(path_or_fileobj=data, path_in_repo=f"peek/{fn}", repo_id=A.repo, repo_type="dataset", commit_message=tag + " peek")
+    # review sheets as loose files (sheets/<shard>/...) so reviewers can open them one by one; DONE marks a finished shard
+    from huggingface_hub import CommitOperationAdd
+    ops = [CommitOperationAdd(path_in_repo=f"sheets/{tag}/{fn}", path_or_fileobj=data) for fn, data, _ in ss]
+    if zs: ops.append(CommitOperationAdd(path_in_repo=f"sheets/{tag}/{tag}_zoom.png", path_or_fileobj=zs))
+    ops.append(CommitOperationAdd(path_in_repo=f"sheets/{tag}/log.csv", path_or_fileobj=lb.getvalue().encode()))
+    ops.append(CommitOperationAdd(path_in_repo=f"sheets/{tag}/manifest.json", path_or_fileobj=json.dumps({fn: man for fn, _, man in ss}).encode()))
+    ops.append(CommitOperationAdd(path_in_repo=f"sheets/{tag}/DONE", path_or_fileobj=b"ok\n"))
+    api.create_commit(repo_id=A.repo, repo_type="dataset", operations=ops, commit_message=f"sheets {tag}")
     ok = sum(r[1] == "ok" for r in rows); dt = time.time() - t0
     print(f"{tag}: {ok}/{len(rows)} ok, {sum(r[1]=='error' for r in rows)} errors, {dt:.0f}s ({dt/max(len(rows),1):.2f}s/photo)", flush=True)
 
