@@ -1,0 +1,24 @@
+{
+"hands": {
+"0009300000109": "https://images.openfoodfacts.org/images/products/000/930/000/0109/front_en.4.400.jpg",
+"0009300003346": "https://images.openfoodfacts.org/images/products/000/930/000/3346/front_en.35.400.jpg",
+"0009800000753": "https://images.openfoodfacts.org/images/products/000/980/000/0753/front_en.6.400.jpg",
+"0011110816405": "https://images.openfoodfacts.org/images/products/001/111/081/6405/front_en.30.400.jpg",
+"0012000019258": "https://images.openfoodfacts.org/images/products/001/200/001/9258/front_en.64.400.jpg",
+"0013764028142": "https://images.openfoodfacts.org/images/products/001/376/402/8142/front_en.76.400.jpg",
+"0013800240583": "https://images.openfoodfacts.org/images/products/001/380/024/0583/front_en.3.400.jpg",
+"0014100085461": "https://images.openfoodfacts.org/images/products/001/410/008/5461/front_en.55.400.jpg",
+"0761720987506": "https://images.openfoodfacts.org/images/products/076/172/098/7506/front_en.14.400.jpg",
+"0764014107604": "https://images.openfoodfacts.org/images/products/076/401/410/7604/front_en.17.400.jpg",
+"07838808": "https://images.openfoodfacts.org/images/products/000/000/783/8808/front_en.19.400.jpg",
+"0787692838349": "https://images.openfoodfacts.org/images/products/078/769/283/8349/front_en.72.400.jpg"
+},
+"poor": {
+"0009542016432": "https://images.openfoodfacts.org/images/products/000/954/201/6432/front_en.31.400.jpg",
+"0009800802203": "https://images.openfoodfacts.org/images/products/000/980/080/2203/front_en.21.400.jpg",
+"0009800895007": "https://images.openfoodfacts.org/images/products/000/980/089/5007/front_en.106.400.jpg",
+"0010878850577": "https://images.openfoodfacts.org/images/products/001/087/885/0577/front_en.91.400.jpg",
+"0011384232123": "https://images.openfoodfacts.org/images/products/001/138/423/2123/front_en.14.400.jpg",
+"0013764028302": "https://images.openfoodfacts.org/images/products/001/376/402/8302/front_en.13.400.jpg"
+}
+}
